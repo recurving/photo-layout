@@ -26,6 +26,10 @@ img {
   height: auto;
 }
 
+a {
+  color: #000000;
+}
+
 h1 {
   max-width: 500px;
   font-size: 1rem;
