@@ -1,3 +1,1 @@
-# Simple Layouter
-
-A simple layout utility for photos based on Flexbox. Its purpose is to allow building a simple one page photo portfolio with only basic HTML knowledge. See a simple demo here: [recurving.github.io/simple-layouter](https://recurving.github.io/simple-layouter/).
+A simple layout utility for photos based on Flexbox. Its purpose is to allow building a simple one page photo portfolio with only basic HTML knowledge (so checking out the `index.html` and `stylesheet.css` should be quite self explanatory). See the demo page here: [recurving.github.io/simple-layouter](https://recurving.github.io/simple-layouter/).
