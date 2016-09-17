@@ -30,18 +30,11 @@ a {
   color: #000000;
 }
 
-h1 {
+h1, p {
   max-width: 40rem;
   font-size: 1rem;
   margin: 0 auto;
   text-align: center;
-}
-
-small {
-  display: block;
-  max-width: 40rem;
-  font-size: 0.8rem;
-  margin: 0 auto;
 }
 
 section + section {
