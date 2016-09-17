@@ -3,55 +3,83 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0">
-    <title>Simple Layouter</title>
+    <title>Simple layout</title>
     <link rel="stylesheet" media="all" href="./stylesheets/stylesheet.css">
   </head>
   <body>
     <section>
       <h1>Example #1</h1>
-      <div class="photos">
-        <div class="photos__group photos__group--vertical-bottom photos__group--horizontal-right">
-          <div class="photos__item photos__item--width-2"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-2 photos__item--vertical-top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg" class="asset__item"></div></div>
+      <div class="layout">
+        <div class="photos bottom right">
+          <div class="photo width-2"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg"></div></div>
+          <div class="photo width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg"></div></div>
+          <div class="photo width-2 top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg"></div></div>
         </div>
-        <div class="photos__group photos__group--horizontal-left">
-          <div class="photos__item photos__item--width-8"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg" class="asset__item"></div></div>
+        <div class="photos left">
+          <div class="photo width-8"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg"></div></div>
         </div>
-        <div class="photos__group photos__group--vertical-top">
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg" class="asset__item"></div></div>
+        <div class="photos top">
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg"></div></div>
+          <div class="photo width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg"></div></div>
         </div>
       </div>
     </section>
     <section>
       <h1>Example #2</h1>
-      <div class="photos">
-        <div class="photos__group photos__group--horizontal-space-between">
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg" class="asset__item"></div></div>
+      <div class="layout">
+        <div class="photos space-between">
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg"></div></div>
         </div>
       </div>
     </section>
     <section>
       <h1>Example #3</h1>
-      <div class="photos">
-        <div class="photos__group">
-          <div class="photos__item photos__item--width-4 photos__item--vertical-bottom"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-12"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-2 photos__item--vertical-top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg" class="asset__item"></div></div>
-          <div class="photos__item photos__item--width-3 photos__item--vertical-top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg" class="asset__item"></div></div>
+      <div class="layout">
+        <div class="photos">
+          <div class="photo width-4 bottom"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg"></div></div>
+          <div class="photo width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg"></div></div>
+          <div class="photo width-12"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg"></div></div>
+          <div class="photo width-2 top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg"></div></div>
+          <div class="photo width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg"></div></div>
+          <div class="photo width-3 top"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg"></div></div>
         </div>
       </div>
     </section>
     <section>
-      <small>All photos are taken by me, so do not use them anywhere else please. Get the code on <a href="https://github.com/recurving/simple-layouter">GitHub</a>.</small>
+      <h1>Example #4</h1>
+      <div class="layout">
+        <div class="photos space-between">
+          <div class="photo width-12"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg"></div></div>
+          <div class="photo width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg"></div></div>
+          <div class="photo width-6"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg"></div></div>
+          <div class="photo width-4"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg"></div></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1>Example #5</h1>
+      <div class="layout">
+        <div class="photos top">
+          <div class="photo width-2 bottom"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-01.jpg"></div></div>
+          <div class="photo width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-02.jpg"></div></div>
+          <div class="photo width-3"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-03.jpg"></div></div>
+        </div>
+        <div class="photos top">
+          <div class="photo width-5"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-06.jpg"></div></div>
+          <div class="photo width-3"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-04.jpg"></div></div>
+          <div class="photo width-2 bottom"><div class="asset" style="padding-bottom: 66.67%;"><img src="./images/photo-05.jpg"></div></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <small>All photos are taken by me, so do not use them anywhere else please. Get the code on <a href="https://github.com/recurving/simple-layout">GitHub</a>.</small>
     </section>
   </body>
 </html>

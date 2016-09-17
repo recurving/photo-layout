@@ -52,7 +52,7 @@ section + section {
   position: relative;
 }
 
-.asset__item {
+.asset img {
   background: #000000;
   position: absolute;
   width: 100%;
@@ -61,18 +61,18 @@ section + section {
   top: 0;
 }
 
-.photos, .photos__item {
+.layout, .layout .photo {
   padding: 0.25rem;
 }
 
-.photos__group {
+.layout .photos {
   max-width: 40rem;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 40rem) {
   @supports (display: flex) {
-    .photos__group {
+    .layout .photos {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -80,95 +80,87 @@ section + section {
       max-width: 80rem;
     }
 
-    .photos__group--horizontal-left {
+    .layout .photos.left {
       justify-content: flex-start;
     }
 
-    .photos__group--horizontal-center {
-      justify-content: center;
-    }
-
-    .photos__group--horizontal-right {
+    .layout .photos.right {
       justify-content: flex-end;
     }
 
-    .photos__group--horizontal-space-between {
+    .layout .photos.space-between {
       justify-content: space-between;
     }
 
-    .photos__group--horizontal-space-around {
+    .layout .photos.space-around {
       justify-content: space-around;
     }
 
-    .photos__group--vertical-top {
+    .layout .photos.top {
       align-items: flex-start;
     }
 
-    .photos__group--vertical-center {
-      align-items: center;
-    }
-
-    .photos__group--vertical-bottom {
+    .layout .photos.bottom {
       align-items: flex-end;
     }
 
-    .photos__item--vertical-top {
+    .layout .photo.top {
       align-self: flex-start;
     }
 
-    .photos__item--vertical-center {
+    .layout .photo.center {
       align-self: center;
     }
 
-    .photos__item--vertical-bottom {
+    .layout .photo.bottom {
       align-self: flex-end;
     }
 
-    .photos__item--width-1 {
+    .layout .photo.width-1 {
       width: 8.333%;
     }
 
-    .photos__item--width-2 {
+    .layout .photo.width-2 {
       width: 16.666%;
     }
 
-    .photos__item--width-3 {
+    .layout .photo.width-3 {
       width: 25%;
     }
 
-    .photos__item--width-4 {
+    .layout .photo.width-4 {
       width: 33.333%;
     }
 
-    .photos__item--width-5 {
+    .layout .photo.width-5 {
       width: 41.666%;
     }
 
-    .photos__item--width-6 {
+    .layout .photo.width-6 {
       width: 50%;
     }
 
-    .photos__item--width-7 {
+    .layout .photo.width-7 {
       width: 58.333%;
     }
 
-    .photos__item--width-8 {
+    .layout .photo.width-8 {
       width: 66.666%;
     }
 
-    .photos__item--width-9 {
+    .layout .photo.width-9 {
       width: 75%;
     }
 
-    .photos__item--width-10 {
+    .layout .photo.width-10 {
       width: 83.333%;
     }
 
-    .photos__item--width-11 {
+    .layout .photo.width-11 {
       width: 91.666%;
     }
 
-    .photos__item--width-12 {
+    .layout .photo.width-12 {
       width: 100%;
     }
   }
