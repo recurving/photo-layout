@@ -31,6 +31,10 @@ h1, p {
   text-align: center;
 }
 
+h1 {
+  margin-bottom: 1.75rem;
+}
+
 section + section {
   margin-top: 7rem;
 }
