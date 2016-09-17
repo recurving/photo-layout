@@ -74,7 +74,6 @@ section + section {
   @supports (display: flex) {
     .photos__group {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
