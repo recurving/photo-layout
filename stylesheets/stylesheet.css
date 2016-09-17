@@ -45,6 +45,21 @@ section + section {
   position: relative;
 }
 
+.asset.landscape
+{
+  padding-bottom: 66.666%;
+}
+
+.asset.square
+{
+  padding-bottom: 100%;
+}
+
+.asset.portrait
+{
+  padding-bottom: 150%;
+}
+
 .asset img {
   background: #000000;
   position: absolute;
