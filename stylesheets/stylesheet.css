@@ -24,18 +24,18 @@ a {
   color: #000000;
 }
 
-h1, p {
+h1 {
   max-width: 40rem;
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 0 auto 1.75rem;
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 1.75rem;
+footer {
+  text-align: center;
 }
 
-section + section {
+section + section, footer {
   margin-top: 7rem;
 }
 
