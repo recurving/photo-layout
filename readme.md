@@ -16,7 +16,7 @@ Each photo has a width, starting from `width-1` (being one twelfth of the full w
 
 There is a space between each element. I am using `box-sizing: border-box` – that way the padding will be included in the width). If two elements are next to each other the space will be summed up, that's why there's another space added to the surrounding `layout``.
 
-Within each line the elements are vertically and horizontally centered, but this can be changed of course: vertically `top` and `bottom`, horizontally `left`, `right`, `space-between` and `space-around` (check out [this guide to the Flexbox)[https://css-tricks.com/snippets/css/a-guide-to-flexbox/], this is how it works).
+Within each line the elements are vertically and horizontally centered, but this can be changed of course: vertically `top` and `bottom`, horizontally `left`, `right`, `space-between` and `space-around` (check out [this guide to the Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), this is how it works).
 
 So each `photos` block has it own vertical and horizontal alignment, if you want to change this just add another `photos` block. The vertical alignment of elements within a block can be changed individually as well, the options are `top`, `center` and `bottom`. Here's an advanced example:
 
