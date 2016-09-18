@@ -43,16 +43,40 @@ As said above the whole CSS is just meant to be simple enough for people without
 ```html
 <div class="mw8 pa1 center">
   <div class="flex-ns flex-wrap-ns justify-end-ns items-end-ns">
-    <div class="pa1 w-20-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="building.jpg" alt="Building" class="aspect-ratio--object"></div></div>
-    <div class="pa1 w-50-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="ocean.jpg" alt="Ocean" class="aspect-ratio--object"></div></div>
-    <div class="pa1 w-20-ns self-start-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="beach.jpg" alt="Beach" class="aspect-ratio--object"></div></div>
+    <div class="pa1 w-20-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="building.jpg" alt="Building" class="aspect-ratio--object">
+      </div>
+    </div>
+    <div class="pa1 w-50-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="ocean.jpg" alt="Ocean" class="aspect-ratio--object">
+      </div>
+    </div>
+    <div class="pa1 w-20-ns self-start-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="beach.jpg" alt="Beach" class="aspect-ratio--object">
+      </div>
+    </div>
   </div>
   <div class="flex-ns flex-wrap-ns justify-start-ns items-center-ns">
-    <div class="pa1 w-70-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="window.jpg" alt="Window" class="aspect-ratio--object"></div></div>
+    <div class="pa1 w-70-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="window.jpg" alt="Window" class="aspect-ratio--object">
+      </div>
+    </div>
   </div>
   <div class="flex-ns flex-wrap-ns justify-center-ns items-start-ns">
-    <div class="pa1 w-30-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="pier.jpg" alt="Pier" class="aspect-ratio--object"></div></div>
-    <div class="pa1 w-40-ns"><div class="aspect-ratio aspect-ratio--6x4"><img src="street.jpg" alt="Street" class="aspect-ratio--object"></div></div>
+    <div class="pa1 w-30-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="pier.jpg" alt="Pier" class="aspect-ratio--object">
+      </div>
+    </div>
+    <div class="pa1 w-40-ns">
+      <div class="aspect-ratio aspect-ratio--6x4">
+        <img src="street.jpg" alt="Street" class="aspect-ratio--object">
+      </div>
+    </div>
   </div>
 </div>
 ```
