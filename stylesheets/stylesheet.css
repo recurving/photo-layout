@@ -59,7 +59,7 @@ section + section, footer {
 }
 
 .asset img {
-  background: #000000;
+  background-color: #000000;
   position: absolute;
   display: block;
   width: 100%;
