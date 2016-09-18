@@ -1,6 +1,6 @@
 A simple layout utility for photos based on Flexbox. Its purpose is to allow building a simple one page photo portfolio with only basic HTML knowledge.
 
-Photos are grouped in *photos* within a *layout*, like here: 
+All `photo` element are grouped in `photos` within a `layout`, like here:
 
 ```html
 <div class="layout">
@@ -12,7 +12,7 @@ Photos are grouped in *photos* within a *layout*, like here:
 </div>
 ```
 
-Each photo has a width, starting from `width-1` (being one twelfth of the full width: 8.33%) to `width-12` (the full width: 100%). In the example above all widths sum up to 12. If we've added another element or the last items would have `width-5` it would wrap into the next line.
+Each photo has a width assigned, starting from `width-1` (being one twelfth of the layout's width: 8.33%) to `width-12` (the full width of the layout: 100%). The width of the layout itself also takes the viewport height into account (read this [article on vertical media queries](https://markus.is/designing/fluid-images/) for further details). In the example above all widths sum up to 12. If we've added another element or the last items would have `width-5` it would wrap into the next line.
 
 There is a space between each element. I am using `box-sizing: border-box` – that way the padding will be included in the width). If two elements are next to each other the space will be summed up, that's why there's another space added to the surrounding `layout`.
 

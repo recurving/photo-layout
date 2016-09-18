@@ -25,7 +25,7 @@ a {
 }
 
 h1 {
-  max-width: 40rem;
+  max-width: 600px;
   font-size: 1rem;
   margin: 0 auto 1.75rem;
   text-align: center;
@@ -69,22 +69,33 @@ section + section, footer {
 }
 
 .layout, .layout .photo {
-  padding: 0.25rem;
+  padding: 4px;
 }
 
 .layout .photos {
-  max-width: 40rem;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-height: 400px) {
+  .layout .photos {
+    max-width: 150vh;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .layout .photos {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 400px) {
   @supports (display: flex) {
     .layout .photos {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      max-width: 80rem;
     }
 
     .layout .photos.left {
