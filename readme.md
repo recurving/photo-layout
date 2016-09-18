@@ -38,7 +38,11 @@ In this example the elements of the first block have the widths 33.33% and 50% a
 
 The height of each `element` depends on the photo ratio. In my example all photos are 3:2, but it of course works fine for different aspect ratios as well. I am using the [padding-bottom hack](https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/) for displaying the images (to avoid layout shifting while the images load).
 
-As said above the whole CSS is just meant to be simple enough for people without much knowledge to work with - otherwise I'd recommend building the same component with functional CSS libraries. Here is a quick example how I would solve it with [Tachyons](http://tachyons.io) (please note: the widths are in percent and not fractions):
+See a demo page with different layouts here: [recurving.github.io/photo-layout](https://recurving.github.io/photo-layout/).
+
+---
+
+**Sidenote:** As said above the whole CSS is just meant to be simple enough for people without much knowledge to work with - otherwise I'd recommend building the same component with functional CSS libraries. Here is a quick example how I would solve it with [Tachyons](http://tachyons.io) (please note: the widths are in percent and not fractions):
 
 ```html
 <div class="mw8 pa1 center">
@@ -80,5 +84,3 @@ As said above the whole CSS is just meant to be simple enough for people without
   </div>
 </div>
 ```
-
-See a demo page with different layouts here: [recurving.github.io/photo-layout](https://recurving.github.io/photo-layout/).
